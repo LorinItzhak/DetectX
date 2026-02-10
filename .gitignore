@@ -1,0 +1,19 @@
+# ROS2/colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Ultralytics
+*.pt
+runs/
+.ultralytics/
+
+# macOS
+.DS_Store
+**/.DS_Store
