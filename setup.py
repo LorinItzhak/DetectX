@@ -21,7 +21,9 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "detect_node = detectx.detect_node:main",
-        ],
+    "detect_node = detectx.detect_node:main",
+    "file_pub = detectx.file_pub:main",
+],
+
     },
 )

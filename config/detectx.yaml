@@ -3,8 +3,9 @@ detectx:
     input_topic: /image
     detections_topic: /detectx/detections
     annotated_topic: /detectx/annotated
-    model_path: yolov8n.pt
+    model_path: models/yolov8n.pt
     conf: 0.25
     iou: 0.45
     device: cpu
     publish_annotated: true
+
